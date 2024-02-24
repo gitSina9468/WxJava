@@ -48,7 +48,7 @@ public abstract class SimplePostRequestExecutor<H, P> implements RequestExecutor
     }
 
     if (responseContent.startsWith("<xml>")) {
-      //xml格式输出直接返回
+      //xml格式输出直接返回formdata
       return responseContent;
     }
 

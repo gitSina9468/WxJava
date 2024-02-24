@@ -704,6 +704,13 @@ public interface WxOpenMaService extends WxMaService {
   WxOpenMaPrivacyService getPrivacyService();
 
   /**
+   * 小程序微信认证
+   *
+   * @return 小程序微信认证
+   */
+  WxOpenMaAuthService getAuthService();
+
+  /**
    * 购物订单
    *
    * @return 购物订单服务

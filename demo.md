@@ -22,4 +22,8 @@
 	- 使用 `Spring MVC` 实现的公众号 Demo：[GitHub](http://github.com/binarywang/weixin-java-mp-demo-springmvc)、[码云](https://gitee.com/binary/weixin-java-mp-demo) [![Build Status](https://app.travis-ci.com/binarywang/weixin-java-mp-demo-springmvc.svg?branch=master)](https://app.travis-ci.com/binarywang/weixin-java-mp-demo-springmvc)
 	- 使用 `Spring Boot` 实现的公众号 Demo（支持多公众号）：[GitHub](http://github.com/binarywang/weixin-java-mp-demo)、[码云](http://gitee.com/binary/weixin-java-mp-demo-springboot) [![Build Status](https://app.travis-ci.com/binarywang/weixin-java-mp-demo.svg?branch=master)](https://app.travis-ci.com/binarywang/weixin-java-mp-demo)  
 	- 含公众号和部分微信支付代码的 Demo：[GitHub](http://github.com/Wechat-Group/weixin-java-demo-springmvc)、[码云](http://gitee.com/binary/weixin-java-tools-springmvc) [![Build Status](https://app.travis-ci.com/Wechat-Group/weixin-java-demo-springmvc.svg?branch=master)](https://app.travis-ci.com/Wechat-Group/weixin-java-demo-springmvc)
+	
+	
+	本地打包
+	mvn install -Dmaven.test.skip=true
   

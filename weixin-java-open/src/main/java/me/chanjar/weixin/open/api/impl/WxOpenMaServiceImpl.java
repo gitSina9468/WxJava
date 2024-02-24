@@ -48,6 +48,8 @@ public class WxOpenMaServiceImpl extends WxMaServiceImpl implements WxOpenMaServ
   private final WxOpenMaPrivacyService privacyService;
   @Getter
   private final WxOpenMaShoppingOrdersService shoppingOrdersService;
+  @Getter
+  private final WxOpenMaAuthService authService;
 
   public WxOpenMaServiceImpl(WxOpenComponentService wxOpenComponentService, String appId, WxMaConfig wxMaConfig) {
     this.wxOpenComponentService = wxOpenComponentService;
@@ -56,6 +58,7 @@ public class WxOpenMaServiceImpl extends WxMaServiceImpl implements WxOpenMaServ
     this.basicService = new WxOpenMaBasicServiceImpl(this);
     this.privacyService = new WxOpenMaPrivacyServiceImpl(this);
     this.shoppingOrdersService = new WxOpenMaShoppingOrdersServiceImpl(this);
+    this.authService = new WxOpenMaAuthServiceImpl(this);
     initHttp();
   }
 
